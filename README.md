@@ -39,7 +39,9 @@
    ```bash
    npm install
    ```
-3. Start the Expo project:
+3. Rename `FirebaseConfig.example.ts` to `FirebaseConfig.ts` and add your Firebase config.
+
+4. Start the Expo project:
    ```bash
    npx expo start
    ```

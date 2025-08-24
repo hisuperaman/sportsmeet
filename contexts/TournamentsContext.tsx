@@ -25,10 +25,10 @@ export default function TournamentsProvider({
     children
 }: { children: ReactNode }) {
     const [tournaments, setTournaments] = useState<TournamentType[]>([])
-    const [tournamentsLoading, setTournamentsLoading] = useState<boolean>(false)
+    const [tournamentsLoading, setTournamentsLoading] = useState<boolean>(true)
 
     const [upcomingTournaments, setUpcomingTournaments] = useState<TournamentType[]>([])
-    const [upcomingTournamentsLoading, setUpcomingTournamentsLoading] = useState<boolean>(false)
+    const [upcomingTournamentsLoading, setUpcomingTournamentsLoading] = useState<boolean>(true)
 
     async function populateTournaments() {
         setTournamentsLoading(true)

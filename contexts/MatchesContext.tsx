@@ -33,12 +33,12 @@ export default function MatchesProvider({
     const { populateUpcomingTournaments } = useTournaments()
 
     const [matches, setMatches] = useState<MatchType[]>([])
-    const [matchesLoading, setMatchesLoading] = useState<boolean>(false)
+    const [matchesLoading, setMatchesLoading] = useState<boolean>(true)
 
     const [liveTournament, setLiveTournament] = useState<TournamentType | null>(null)
 
     const [archivedMatches, setArchivedMatches] = useState<MatchType[]>([])
-    const [archivedMatchesLoading, setArchivedMatchesLoading] = useState<boolean>(false)
+    const [archivedMatchesLoading, setArchivedMatchesLoading] = useState<boolean>(true)
 
     const unsubscribeRef = useRef<Unsubscribe | null>(null)
 

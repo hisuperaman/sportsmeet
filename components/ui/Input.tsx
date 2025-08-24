@@ -14,7 +14,7 @@ export default function Input({
     <View className="mb-4">
       <MyText className="mb-1 text-base text-gray-700">{label}</MyText>
       <TextInput
-        className="border border-gray-300 rounded-lg px-4 py-2 text-base bg-white h-12"
+        className="border border-gray-300 rounded-lg px-4 py-2 text-base bg-white h-12 text-black"
         value={value}
         onChangeText={onChange}
         placeholder={placeholder}
